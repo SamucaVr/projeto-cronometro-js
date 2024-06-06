@@ -6,7 +6,7 @@ function ativarContagem() {
         
         let hora = parseInt(horas) + 1;
         let minuto = parseInt(minutos) + 1;
-        let segundo = parseInt(cronometro) + 1;
+        let segundo = parseInt(segundos) + 1;
 
         document.getElementById('segundos').innerHTML = segundo;
         document.getElementById('display').innerHTML = 'Iniciado';
